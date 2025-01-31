@@ -1,0 +1,18 @@
+{
+  "name": "code-editor",
+  "homepage": "https://HPdeveloper786.github.io/Code-Editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "java.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
