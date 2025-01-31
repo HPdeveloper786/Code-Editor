@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="code-editor-container">
+        <div class="code-editor html-editor">
+            <div class="head-editor">
+                <div class="left-head" id="color">
+                    <img src="html.png" alt="HTML icon" width="30px">
+                    <span>HTML</span>
+                </div>
+                <div class="right-head">
+                    <img src="copy.svg" alt="Copy HTML" class="copy copy1">
+                </div>
+            </div>
+            <textarea class="html-textarea" spellcheck="false"></textarea>
+        </div>
+        <div class="code-editor css-editor">
+            <div class="head-editor">
+                <div class="left-head">
+                    <img src="css.png" alt="CSS icon" width="30px">
+                    <span>CSS</span>
+                </div>
+                <div class="right-head">
+                    <img src="copy.svg" alt="Copy CSS" class="copy copy2">
+                </div>
+            </div>
+            <textarea class="css-textarea" spellcheck="false"></textarea>
+        </div>
+        <div class="code-editor js-editor">
+            <div class="head-editor">
+                <div class="left-head">
+                    <img src="js.png" alt="JavaScript icon" width="30px">
+                    <span>JS</span>
+                </div>
+                <div class="right-head">
+                    <img src="copy.svg" alt="Copy JavaScript" class="copy copy3">
+                </div>
+            </div>
+            <textarea class="js-textarea" spellcheck="false"></textarea>
+        </div>
+    </div>
+    <div class="output-container">
+        <div class="output-head">
+            <span>OUTPUT</span>
+            <img src="save.svg" id="save" alt="Save Output">
+            <img src="full.svg" alt="Toggle Fullscreen" id="full">
+        </div>
+        <iframe id="output"></iframe>
+    </div>
+    <script src="java.js"></script>
+</body>
+
+</html>
